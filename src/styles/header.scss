@@ -1,0 +1,42 @@
+
+
+@font-face {
+    font-family: 'graffiti';
+    src: url('../../public/fonts/TransducerTest-Regular-BF645c3dd843c3b.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    
+  }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #292727;
+    font-family: graffiti;
+    border-bottom: 1px solid black;
+    z-index: 999;
+  
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #f8f5f5;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+.nav a:hover, .nav a.selected {
+    background-color: #224bba;
+    border-radius: 5px;
+}
