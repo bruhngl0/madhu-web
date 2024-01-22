@@ -8,6 +8,14 @@ $duration: 6s;
   font-weight: normal;
 }
 
+@font-face {
+  font-family: 'graffiti';
+  src: url('../../public/fonts/TransducerTest-Regular-BF645c3dd843c3b.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+  
+}
+
 
 
 .hero {
@@ -36,8 +44,10 @@ $duration: 6s;
   margin: 0;
   padding: 0;
   background-color: #000000;
-  color: rgb(187, 66, 66);
-  font-family: "Avenir";
+  color: white;
+  font-family: graffiti ;
+  
+  
 }
 
 .text {
@@ -113,12 +123,17 @@ $text-color: pink;
   }
 
   .imgone{
-   background-color :#292727;
-   width: 33.33%;
-   height: 16rem;
-   display: flex;
-   align-items: center;
-   justify-content: center;
+    display: flex; /* Align images in a row */
+    background-color: black; /* Set the background color to black */
+    /* Add some padding around the images */
+    margin-left: 10px; /* Add margin around the div */
+    box-shadow: 0 0 25px #0f0f3d, /* Innermost shadow */
+                0 0 50px #0d0d59, /* Middle shadow */
+                0 0 100px #0a0a75, /* Outermost shadow */
+                0 0 200px #08088a; /* Most distant shadow */
+    transition: box-shadow 0.3s ease-in-out; /* Transition for a smooth glow effect on hover */
+    border-radius: 30px;
+    margin-bottom: 10px;
    >img{
     height: 16rem;
     width: auto;
@@ -127,12 +142,15 @@ $text-color: pink;
   }
 
   .imgtwo{
-    background-color: #292727;
-    width: 33.33%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 16rem;
+    display: flex; /* Align images in a row */
+    background-color: black; /* Set the background color to black */
+    margin-bottom: 10px;
+    box-shadow: 0 0 25px #0f0f3d, /* Innermost shadow */
+                0 0 50px #0d0d59, /* Middle shadow */
+                0 0 100px #0a0a75, /* Outermost shadow */
+                0 0 200px #08088a; /* Most distant shadow */
+    transition: box-shadow 0.3s ease-in-out; /* Transition for a smooth glow effect on hover */
+    border-radius: 30px;
     >img{
      height: 16rem;
      width: auto;
@@ -141,9 +159,9 @@ $text-color: pink;
    }
 
    .para{
-    background-color: black;
-    background-image: url('madback.webp');
-    width: 33.33%;
+    background-color: transparent;
+   
+    
     display: flex;
     align-items: center;
     justify-content: center;
