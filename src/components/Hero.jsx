@@ -19,7 +19,7 @@ const Hero = () => {
   <div className='lower-hero'>
     <div className='imgone'>    <img src= "heroimg.png"/> <img src= "yellow.png"/> </div>
 
-   <div className='para'> <img src="color.png" ></img> </div>
+   <div className='para'> <img src="color.png" alt='aav' ></img> </div>
    <div className='imgtwo'>    <img src= "inverted.png"/> <img src= "heroimg2.png"/> </div>
   </div>
   </div>
