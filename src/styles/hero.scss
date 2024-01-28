@@ -16,7 +16,11 @@ $duration: 6s;
   
 }
 
-
+.main-hero{
+  height: 100vh;
+  width: 100%;
+  background-color: #000;
+}
 
 .hero {
   
@@ -28,7 +32,7 @@ $duration: 6s;
     overflow: hidden;
     margin: 0;
     padding: 0;
-    background-color: #010101;
+    background-color: #181818;
     color: rgb(187, 66, 66);
     font-family: "Avenir";
   }
@@ -43,7 +47,7 @@ $duration: 6s;
   overflow: hidden;
   margin: 0;
   padding: 0;
-  background-color: #000000;
+  background-color: #020202;
   color: white;
   font-family: graffiti ;
   
@@ -102,7 +106,7 @@ $text-color: pink;
     background-size: 80%;
     animation: shine 10s linear infinite;
     position: relative;
-    padding-bottom: 3rem;
+    
     background-color: #000;
   }
   
@@ -119,7 +123,7 @@ $text-color: pink;
   .lower-hero{
     background-color: #000000;
     display: flex;
-    height: 18rem;
+ 
   }
 
   .imgone{
@@ -133,7 +137,7 @@ $text-color: pink;
                 0 0 200px #08088a; /* Most distant shadow */
     transition: box-shadow 0.3s ease-in-out; /* Transition for a smooth glow effect on hover */
     border-radius: 30px;
-    margin-bottom: 10px;
+   margin-top: 3rem;
    >img{
     height: 16rem;
     width: auto;
@@ -151,6 +155,7 @@ $text-color: pink;
                 0 0 200px #08088a; /* Most distant shadow */
     transition: box-shadow 0.3s ease-in-out; /* Transition for a smooth glow effect on hover */
     border-radius: 30px;
+    margin-top: 3rem;
     >img{
      height: 16rem;
      width: auto;
@@ -166,6 +171,7 @@ $text-color: pink;
     align-items: center;
     justify-content: center;
     height: 16rem;
+    margin-top: 3rem;
     >img{
         height: 20rem;
     }
