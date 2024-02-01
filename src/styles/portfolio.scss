@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  background-color: black;
+}
+
+
+.port-main{
+  width: 100%;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ background-color: black;
+  >img{
+    width: 40rem;
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+  }
+}
+
+
+
+
+
+/* Targeting the Slider component */
+.slick-slider {
+  padding: 10px; /* Add padding around the slider */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ 
+}
+
+/* Targeting images inside the Slider */
+.slick-slider img {
+  max-width: 31rem; /* Adjust the width as needed */
+  height: 300px;
+  margin: 0 auto; /* Center the images in their slide */
+  display: block; /* Display images as block-level elements */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+
+
+
+
+.one .slick-track {
+  animation: scroll 200s linear infinite; /* Adjust time for speed control */
+}
+
+.two .slick-track{
+  animation: slide 200s linear infinite;
+}
+@keyframes scroll {
+  0% {
+      transform: translate3d(0, 0, 0);
+  }
+  100% {
+      transform: translate3d(-100%, 0, 0); /* Moves the slider to the left */
+  }
+}
+
+
+@keyframes slide {
+  0% { transform: translate3d(-100%, 0, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}

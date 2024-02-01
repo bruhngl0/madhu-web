@@ -18,13 +18,13 @@ $duration: 6s;
 
 .main-hero{
   height: 100vh;
-  width: 100%;
+
   background-color: #000;
 }
 
 .hero {
   
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -130,7 +130,7 @@ $text-color: pink;
     display: flex; /* Align images in a row */
     background-color: black; /* Set the background color to black */
     /* Add some padding around the images */
-    margin-left: 10px; /* Add margin around the div */
+    margin-left: 13px;
     box-shadow: 0 0 25px #0f0f3d, /* Innermost shadow */
                 0 0 50px #0d0d59, /* Middle shadow */
                 0 0 100px #0a0a75, /* Outermost shadow */
@@ -148,7 +148,7 @@ $text-color: pink;
   .imgtwo{
     display: flex; /* Align images in a row */
     background-color: black; /* Set the background color to black */
-    margin-bottom: 10px;
+   
     box-shadow: 0 0 25px #0f0f3d, /* Innermost shadow */
                 0 0 50px #0d0d59, /* Middle shadow */
                 0 0 100px #0a0a75, /* Outermost shadow */
@@ -165,7 +165,7 @@ $text-color: pink;
 
    .para{
     background-color: transparent;
-   
+    width: 30%;
     
     display: flex;
     align-items: center;
