@@ -64,7 +64,7 @@ const Portfolio = () => {
         <img src = "./PortFilo/19.jpg"/>
         <img src = "./PortFilo/8.jpg"/>
         <img src = "./PortFilo/21.jpg"/>
-        <img src = "./PortFilo/23.jpg" alt = "l"/>
+        <img src = "./PortFilo/23.jpg" alt = "la"/>
       
        
         </Slider>
