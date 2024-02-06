@@ -1,18 +1,16 @@
 import React from 'react';
 import '../styles/hero.scss'
 const Hero = () => {
-  const text = 'MINDS  - I';
-  const items = [];
-
-  for (let i = 0; i < 10; i++) {
-    items.push(<div className="text" key={i}>{`${text}`}</div>);
-  }
+ 
 
   return (
   <>  
   <div className='main-hero'>
   <div className='hero'>
-  <div className='hero-one'>{items}</div>
+  <div className='hero-one'>
+    <img src = "mindslogo.png" />
+    
+  </div>
   <p className='hero-text'>Beyond the Bounds of the Ordinary</p>
   </div>
 

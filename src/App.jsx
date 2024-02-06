@@ -4,6 +4,9 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import Portfolio from './components/Portfolio'
 import Service from './components/Service'
+import Ani from './components/Ani'
+import OurTeamComponent from './components/OurTeamComponent'
+import Footer from './components/Footer'
 function App() {
   
 
@@ -13,6 +16,9 @@ function App() {
      <Hero />
      <Service />
      <Portfolio />
+     <Ani />
+     <OurTeamComponent />
+     <Footer />
     
     </>
   )
