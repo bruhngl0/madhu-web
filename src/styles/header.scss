@@ -39,3 +39,43 @@
     background-color: #224bba;
     border-radius: 5px;
 }
+
+
+
+
+@media only screen and (max-width: 450px) {
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: rgb(0, 0, 0);
+        border-bottom: 0.5px solid rgb(60, 59, 59);
+        z-index: 999;
+    }
+
+    .logo {
+        display: none;
+    }
+
+
+    .logo img{
+        display: none;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: row; /* Stack navigation links vertically */
+        font-size: 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+       padding-right: 20px;
+    }
+
+    .nav a {
+        padding: 0px; /* Increase padding for easier tapping */
+    }
+}
+
+

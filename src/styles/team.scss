@@ -45,3 +45,58 @@ border: 1px solid rgb(49, 0, 244);
     margin-bottom: 3rem;
     font-size: 5rem;
 }
+
+
+@media only screen and (max-width: 450px) { 
+    .team-container {
+        display: flex;
+       flex-direction: row;
+       justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        width: auto;
+    }
+    
+    .team-member {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        color: aliceblue;
+    }
+    
+    .team-photo {
+        
+        width: 100px; /* Adjust the size as needed */
+        height: 100px; /* Adjust the size as needed */
+        border-radius: 50%; /* Makes the photo circular */
+        object-fit: cover; /* Ensures the image covers the area without distortion */
+        margin-bottom: 10px;
+        box-shadow: 0 0 25px #0f0f3d, /* Innermost shadow */
+        0 0 50px #0d0d59, /* Middle shadow */
+        0 0 100px #0a0a75, /* Outermost shadow */
+        0 0 200px #08088a; /* Most distant shadow */
+    transition: box-shadow 0.3s ease-in-out; /* Transition for a smooth glow effect on hover */
+    border: 1px solid rgb(49, 0, 244);
+    }
+    
+    .team-description {
+        text-align: center;
+        font-size: 10px;
+    }
+    
+    .team{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 8rem;
+    }
+    
+    .team-one{
+        margin-bottom: 3rem;
+        font-size: 5rem;
+        width: 20rem;
+    }
+}

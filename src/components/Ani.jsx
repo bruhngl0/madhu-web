@@ -3,7 +3,7 @@ import "../styles/ani.scss"
 
 const Ani = () => {
   return (
-    <div>
+    <div className='ani-main'>
       <div className='ani-head'>
         <img src = "animations.png" />
       </div>

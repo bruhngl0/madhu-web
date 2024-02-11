@@ -1,3 +1,11 @@
+.ani-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .ani-head {
     display: flex;
     justify-content: center;
@@ -71,4 +79,99 @@ border-radius: 3rem;
 transition: box-shadow 0.3s ease-in-out; /* Transition for a smooth glow effect on hover */
 border: 1px solid rgb(49, 0, 244);
 border-radius: 3rem;
+}
+
+
+@media only screen and (max-width: 450px) { 
+
+    .ani-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .ani-head {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        >img {
+            margin-top: 8rem;
+            width: 20rem;
+        }
+        
+    }
+    
+    .two-section-container{
+          border: 2px solid wheat;
+         width: auto;
+         margin-left: 0px;
+         margin-right: 0px;
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 25px #0f0f3d, /* Innermost shadow */
+        0 0 50px #0d0d59, /* Middle shadow */
+        0 0 100px #0a0a75, /* Outermost shadow */
+        0 0 200px #08088a; /* Most distant shadow */
+    transition: box-shadow 0.3s ease-in-out; /* Transition for a smooth glow effect on hover */
+    border: 1px solid rgb(49, 0, 244);
+    margin-right: 12px;
+    margin-left: 12px;
+   
+    
+    }
+    
+    
+    .video-section{
+        width: 100%;
+        height: 100%;
+        border: 2px solid white;
+    }
+    
+    .video-section video {
+        max-width: 100%;
+        max-height: 100%;
+        width: auto; /* Maintain aspect ratio */
+        height: auto; /* Maintain aspect ratio */
+    }
+    
+    .text-section{
+        display: none;
+        color: aliceblue;
+      
+    
+        >h2{
+            padding-left: 2rem;
+            margin-top: 3rem;
+        }
+        >p{
+          padding-left: 2rem;
+          margin-top: 3rem
+        }
+    }
+    
+    
+    .two-section-container-two{
+        border: 2px solid wheat;
+        width: auto;
+        margin-left: 0px;
+        margin-right: 0px;
+       margin-top: 2rem;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       box-shadow: 0 0 25px #0f0f3d, /* Innermost shadow */
+       0 0 50px #0d0d59, /* Middle shadow */
+       0 0 100px #0a0a75, /* Outermost shadow */
+       0 0 200px #08088a; /* Most distant shadow */
+   transition: box-shadow 0.3s ease-in-out; /* Transition for a smooth glow effect on hover */
+   border: 1px solid rgb(49, 0, 244);
+   margin-right: 12px;
+   margin-left: 12px;
+    }
 }

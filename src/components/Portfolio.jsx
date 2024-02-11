@@ -6,12 +6,12 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Portfolio = () => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 3,
- 
+    arrows: false,
     responsive: [
         {
             breakpoint: 768,
