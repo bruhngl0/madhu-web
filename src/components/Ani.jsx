@@ -2,6 +2,9 @@ import React from 'react'
 import "../styles/ani.scss"
 
 const Ani = () => {
+
+ 
+
   return (
     <section id = "animations">    
     <div className='ani-main'>
@@ -12,6 +15,7 @@ const Ani = () => {
       <div className="two-section-container">
             {/* Video Section */}
             <div className="video-section">
+         
                 <video controls>
                     <source src="Eureka.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
