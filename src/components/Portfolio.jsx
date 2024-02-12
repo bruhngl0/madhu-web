@@ -31,7 +31,7 @@ const Portfolio = () => {
 };
 
   return (
-       <>
+       <section id = "portfolio">
        <div className='port-main'>   
        <img src = "mno.png" />
        </div> 
@@ -74,7 +74,7 @@ const Portfolio = () => {
        
 
        
-       </>
+       </section>
 
  
   )

@@ -3,9 +3,9 @@ import '../styles/team.scss';
 
 const OurTeamComponent = () => {
     return (
-        <>  
-        <div className='team'>
-        <img src = "teamone.png" className='team-one' />
+        <section id = "contacts">  
+        <div className='team' >
+        <img src = "cona.png" className='team-one' />
         </div>
             <div className="team-container">
             {/* Team Member 1 */}
@@ -42,7 +42,7 @@ const OurTeamComponent = () => {
                 </div>
             </div>
         </div>
-        </>
+        </section>
 
     );
 };

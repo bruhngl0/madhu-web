@@ -4,14 +4,14 @@ const Hero = () => {
  
 
   return (
-  <>  
+  <section id = "home">  
   <div className='main-hero'>
   <div className='hero'>
   <div className='hero-one'>
     <img src = "mindslogo.png" />
     
   </div>
-  <p className='hero-text'>Beyond the Bounds of the Ordinary</p>
+  <p className='hero-text'>ANIMATION STUDIO- Beyond the Bounds of the Ordinary</p>
   </div>
 
   <div className='lower-hero'>
@@ -21,7 +21,7 @@ const Hero = () => {
    <div className='imgtwo'>    <img src= "inverted.png"/> <img src= "heroimg2.png"/> </div>
   </div>
   </div>
-  </>
+  </section>
 
   );
 };
