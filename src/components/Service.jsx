@@ -12,13 +12,13 @@ const Service = () => {
     <div>
      <p className="services-two">Our Services</p>
      <p className=" services-three ">Immersive Experiences</p>
-     <p className=" services-four">Elevate your digital presence with our Augmented Reality (AR), Virtual Reality (VR), Interactive ArchViz, and 3D Visuals services. Our team specializes in creating captivating experiences that seamlessly blend the boundaries between the real and virtual worlds. Explore new dimensions of creativity and innovation with us.</p>
+     <p className=" services-four">Enhance your online footprint with our 3D modeling, texturing, animation, motion graphics, AR, and VR services. Our dedicated team excels in crafting immersive experiences that transcend conventional boundaries, offering a seamless fusion of reality and virtuality. Discover limitless creativity and innovation with our comprehensive suite of services.</p>
     </div>
 
     <div className="services-five">
      <div className=" services-six">
        <TbAugmentedReality className='services-seven' /> 
-       <p className="services-eight">3D Modelling</p>
+       <p className="services-eight">3D Modeling & Texturing</p>
        <p>Specializing in high-quality 3D modeling services, we meticulously craft detailed models tailored to your unique vision and project requirements.</p>
      </div>
      <div className=" services-six">

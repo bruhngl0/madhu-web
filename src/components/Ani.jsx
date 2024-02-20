@@ -83,6 +83,53 @@ const Ani = () => {
                 </video>
             </div>
         </div>
+
+        <div className='ar-section'>
+          <div className='logoar'>
+          <img src= "solids.png" />
+          </div>
+          <div className='ar-content'>
+            <div className='content-main'>
+              <div>
+              <img src = "nn.png" />
+              </div>
+
+           
+            </div>
+            
+            <div class='ar-content-two'>
+              <div className='ar-container-one'>
+    <div>
+        <img src="al.png" />
+    </div>
+    <div>
+        <p>Augmented reality revolutionizes furniture shopping by offering immersive online experiences, allowing customers to visualize products in their spaces before purchase.</p>
+    </div>
+    </div>
+    
+
+    <div className='ar-container-one'>
+    <div >
+        <img src="dv.png" />
+    </div>
+    <div>
+        <p>Virtual reality (VR) technology immerses users in interactive, computer-generated environments, offering experiences ranging from gaming and education to training and therapeutic applications across various industries.</p>
+    </div>
+    </div>
+
+    <div className='ar-container-one'>
+    <div>
+        <img src="pops.png" />
+    </div>
+    <div>
+        <p>AR in real estate enhances property viewing by overlaying digital information on physical spaces, while AR GPS aids navigation with augmented directions.</p>
+    </div>
+    </div>
+</div>
+
+
+          </div>
+        </div>
     </div>
     </section>
 
